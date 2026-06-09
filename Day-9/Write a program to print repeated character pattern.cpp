@@ -2,9 +2,8 @@
 using namespace std;
 
 int main() {
-    for (int i = 1; i <= 5; i++) {
-        char ch = 'A' + (i - 1);
-        for (int j = 0; j < i; j++) {
+    for (char ch = 'A'; ch <= 'E'; ch++) {
+        for (int i = 0; i < (ch - 'A' + 1); i++) {
             cout << ch;
         }
         cout << endl;
